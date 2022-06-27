@@ -251,7 +251,7 @@ hr{
      font-weight: 500;
  }
  .bckgrd{
-     background-image: url('/img/Group\ 2.png');
+     background-image: url('./img/Group\ 2.png');
      max-width: 100%;
      margin: 0;
      background-size: cover;
