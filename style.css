@@ -351,4 +351,9 @@ hr{
         display: flex;
         flex-direction: column;
     }
+    .arr{
+        padding: 6px;
+        width: 350px;
+        text-align: center;
+    }
 }
