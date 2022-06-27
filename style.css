@@ -357,4 +357,10 @@ hr{
         width: 350px;
         text-align: center;
     }
+    .bckgrd{
+        background-size: cover;
+    }
+    .icons{
+        text-align: center;
+    }
 }
