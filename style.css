@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Manrope', sans-serif;
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    margin: 20px;
+    overflow-y: hidden;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    margin: 20px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.line{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+.logo img{
+    width: 200px;
+    float: left;
+}
+.nav-list{
+    margin-left: auto ;
+    width: 40%;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #3F3B3B;
+}
+.hero-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-section h2{
+    padding-bottom: 65px;
+    width: 795px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+.green{
+    color: #2D9D49;
+}
+.blue{
+    color: #5271FF;
+}
+.orange{
+    color:#FFA500 ;
+}
+.hero-section img{
+    max-width: 100%;
+    height: 425px;
+}
+#quote{
+    margin: 50px 20px 50px 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+#quote h4{
+    color:  #2D9D49;;
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    color: #3a3a3a;
+}
+.c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactbtn{
+    margin: 15px auto;
+    padding: 15px;
+    width: 150px;
+    background-color: #2D9D49;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.contactbtn:hover{
+    background-color: white;
+    border: 2px solid #2D9D49;
+    color: #2D9D49;
+}
+.contactbtn a{
+    color: white;
+}
+.aim{
+    margin: 0;
+}
+.c3{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(59, 20, 20);
+    background-color: #e5e5e535;
+}
+.arr{
+    padding: 26px;
+    width: 500px;
+}
+.arr h2{
+    text-align: center;
+}
+.t1{
+    color: #2D9D49;
+    font-weight: 600;
+}
+.t2{
+    color: #FFA500;
+    font-weight: 600;
+}
+#solution{
+    margin: 25px 50px;
+    text-align: center;
+}
+.c4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.elm{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.055) ;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.elm img{
+    width: 50px;
+    margin: 0 auto;
+}
+.elm span{
+    padding: 5px;
+    text-align: center;
+}
+
+.members{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 10rem);
+    justify-content: center;
+    margin-top: 10px;
+}
+.mem{
+    padding: 15px;
+    background-color: #ffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.055) ;
+}
+hr{
+    width: 1px;
+    height: 280px;
+    margin: 0 20px;
+    color: #2D9D49;
+    border: 0.5px solid;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.getintouch{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ form{
+     margin-top: 30px;
+ }
+ .getintouch input{
+     border: 1px solid rgba(196, 196, 196, 0.82);
+     border-radius: 10px;
+     margin-bottom: 50px;
+     margin-top: 10px;
+     padding: 15px;
+ }
+ textarea{
+     margin-top: 10px;
+ }
+ .getintouch #email, #message{
+     font-family: montserrat sans-serif;
+     font-size: 22px;
+     font-weight: 300;
+ }
+ .getintouch label{
+     font-weight: 400;
+ }
+ .getintouch #email{
+     width: 394px;
+     height: 50px;
+ }
+ .getintouch #message{
+     width: 394px;
+     height: 200px;
+     border: 1px solid rgba(196, 196, 196, 0.82);
+     border-radius: 10px;
+     padding: 15px;
+ }
+ .getintouch .viewwork{
+     margin: 30px 0px 0 0px;
+     padding: 15px 40px;
+     border-radius: 0;
+     font-size: 16px;
+     background-color: white;
+     color: #2D9D49;
+     font-weight: 500;
+ }
+ .bckgrd{
+     background-image: url('/img/Group\ 2.png');
+     max-width: 100%;
+     margin: 0;
+     background-size: cover;
+ }
+/*  .socialicons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .socialicons img{
+     width: 25px;
+     height: auto;
+     margin: 50px 20px;
+ } */
+ #footer{
+     margin: 0;
+     padding: 50px 0 0;
+     height: 20vh;
+     width: 100%;
+
+     color: #000000e8;
+    
+ }
+ #footer p{
+     text-align: center;
+ }
+@media screen and (max-width: 768px) {
+    .logo img{
+        width: 190px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-list{
+        width: 100%;
+        z-index: 100;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    li{
+        padding: 20px;
+    }
+    .hamburger{
+        display: block;
+        float: right;
+    }
+    .hero-section h2{
+        padding-bottom: 65px;
+        width: 590px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 39px;
+    }
+    .hero-section img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .hero-section h2{
+        padding-bottom: 65px;
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    .hero-section img{
+        width: 100%;
+        height: 200px;
+    }
+    hr{
+        display: none;
+    }
+    .getintouch{
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+     }
+     .getintouch #email{
+        width: 350px;
+        height: 50px;
+    }
+    .getintouch #message{
+        width: 350px;
+        height: 200px;
+    }
+    .c3{
+        display: flex;
+        flex-direction: column;
+    }
+}
