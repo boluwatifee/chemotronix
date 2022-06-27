@@ -190,6 +190,9 @@ h2{
     margin: 10px;
     box-shadow: 2px 0 20px rgba(0, 0, 0, 0.055) ;
 }
+.mem img{
+    width: 100%;
+}
 hr{
     width: 1px;
     height: 280px;
