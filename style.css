@@ -137,6 +137,7 @@ h2{
 .arr{
     padding: 26px;
     width: 500px;
+    text-align: center;
 }
 .arr h2{
     text-align: center;
