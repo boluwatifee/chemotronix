@@ -123,6 +123,11 @@ h2{
 .contactbtn a{
     color: white;
 }
+
+.contactbtn:hover a{
+    color: #2D9D49;
+}
+
 .aim{
     margin: 0;
 }
@@ -280,6 +285,14 @@ hr{
      text-align: center;
  }
 @media screen and (max-width: 768px) {
+    ul li {
+        background-color: #2D9D49;
+    }
+
+    ul li a {
+        color: white;
+    }
+
     .logo img{
         width: 190px;
     }
@@ -318,6 +331,14 @@ hr{
 }
 
 @media screen and (max-width: 480px) {
+
+    ul li {
+        background-color: #2D9D49 !important;
+    }
+
+    ul li a {
+        color: white;
+    }
 
     .hero-section h2{
         padding-bottom: 65px;
