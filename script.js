@@ -4,7 +4,11 @@ const navLinks = document.querySelector('.nav-links');
 hamburger.addEventListener('click', responsiveNav);
 
  function responsiveNav(){
-     navLinks.style.display = 'block';
+    if (navLinks.style.display === 'block') {
+        navLinks.style.display = 'none';
+    } else {
+        navLinks.style.display = 'block';
+    }
  }
  
  ScrollReveal({
